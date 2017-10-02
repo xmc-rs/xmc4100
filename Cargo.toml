@@ -1,5 +1,5 @@
 [package]
-name = "xmc41xx"
+name = "xmc4100"
 version = "0.1.0"
 authors = ["Lucas Brendel <lucasbrendel@gmail.com>"]
 
