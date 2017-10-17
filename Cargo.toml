@@ -1,5 +1,7 @@
 [package]
 name = "xmc4100"
+description = "XMC4100 Cortex-M peripheral access library"
+license = "MIT"
 version = "0.1.0"
 authors = ["Lucas Brendel <lucasbrendel@gmail.com>"]
 
