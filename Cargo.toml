@@ -9,7 +9,7 @@ documentation = "https://docs.rs/xmc4100"
 
 [dependencies]
 cortex-m = "0.3.0"
-bare-metal = "0.1.1"
+bare-metal = "0.2.4"
 vcell = "0.1.0"
 
 [dependencies.cortex-m-rt]
