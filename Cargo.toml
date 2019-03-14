@@ -8,7 +8,7 @@ repository = "https://github.com/lucasbrendel/xmc4100"
 documentation = "https://docs.rs/xmc4100"
 
 [dependencies]
-cortex-m = "0.5.8"
+cortex-m = "0.6.0"
 bare-metal = "0.2.4"
 vcell = "0.1.0"
 
