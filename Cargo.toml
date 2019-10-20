@@ -2,7 +2,7 @@
 name = "xmc4100"
 description = "XMC4100 Cortex-M peripheral access library"
 license = "MIT"
-version = "0.3.0"
+version = "0.3.1"
 authors = ["Lucas Brendel <lucasbrendel@gmail.com>"]
 repository = "https://github.com/xmc-rs/xmc4100"
 documentation = "https://docs.rs/xmc4100"
@@ -17,4 +17,4 @@ optional = true
 version = "0.6.10"
 
 [features]
-rt = ["cortex-m-rt"]
+rt = ["cortex-m-rt/device"]
