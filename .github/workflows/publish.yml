@@ -1,5 +1,10 @@
 on:
   workflow_dispatch:
+    inputs:
+      version:
+          description: Version to release
+          required: true
+          type: string
 
 name: Publish
 
@@ -17,19 +22,15 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
-          
-      - name: Cargo Install Bump
+
+      - name: Cargo Install Release
         uses: actions-rs/cargo@v1
         with:
           command: install
-          args: bump
-      
-      - name: Bump
+          args: cargo-release
+
+      - name: Release
         uses: actions-rs/cargo@v1
         with:
-          command: bump
-          args: minor --git-tag
-
-      - run: cargo publish --token ${CRATES_TOKEN}
-        env:
-          CRATES_TOKEN: ${{ secrets.CRATES_TOKEN }}
+          command: release
+          args: ${{ inputs.version }} -x
