@@ -30,7 +30,6 @@ jobs:
       - uses: oleksiyrudenko/gha-git-credentials@v2.1.1
         with:
           token: ${{ steps.generate-token.outputs.token }}
-      - uses: Swatinem/rust-cache@v3.2.0
       - run: cargo release ${{ inputs.version }} --execute --verbose --no-confirm
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CRATES_TOKEN }}
