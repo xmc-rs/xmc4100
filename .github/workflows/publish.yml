@@ -46,7 +46,6 @@ jobs:
         id: release
         with:
           release-type: rust
-          token: ${{ secrets.GH_PERSONAL_TOKEN }}
           skip-github-pull-request: true
 
   publish:
