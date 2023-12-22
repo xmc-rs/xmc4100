@@ -47,6 +47,7 @@ jobs:
         with:
           release-type: rust
           token: ${{ secrets.GH_PERSONAL_TOKEN }}
+          skip-github-pull-request: true
 
   publish:
     name: Publish to crates.io
