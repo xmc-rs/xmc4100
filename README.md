@@ -19,5 +19,3 @@ rustup component add rustfmt
 
 svd.sh # Generates code from crate and formats to rustfmt
 ```
-
-## Using Crate
