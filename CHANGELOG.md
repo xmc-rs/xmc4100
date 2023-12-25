@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.3](https://github.com/xmc-rs/xmc4100/compare/v0.8.2...v0.8.3) (2023-12-25)
+
+
+### Bug Fixes
+
+* moving to 2021 edition ([c84a6c4](https://github.com/xmc-rs/xmc4100/commit/c84a6c4573533703c4aed3111ef73f87be5bfc45))
+
 ## [0.8.2](https://github.com/xmc-rs/xmc4100/compare/v0.8.1...v0.8.2) (2023-12-25)
 
 
