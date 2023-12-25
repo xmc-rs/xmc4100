@@ -21,9 +21,3 @@ svd.sh # Generates code from crate and formats to rustfmt
 ```
 
 ## Using Crate
-
-```toml
-[dependencies.xmc4100]
-version = "0.3.1"
-features = ["rt"]
-```
