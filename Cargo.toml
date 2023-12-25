@@ -9,7 +9,7 @@ repository = "https://github.com/xmc-rs/xmc4100"
 documentation = "https://docs.rs/xmc4100"
 keywords = ["cortex-m", "xmc4x", "no_std", "svd2rust", "embedded"]
 categories = ["embedded", "no-std"]
-edition="2018"
+edition="2021"
 
 [dependencies]
 cortex-m = "0.7.7"
