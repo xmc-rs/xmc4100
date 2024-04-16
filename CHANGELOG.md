@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.11.0](https://github.com/xmc-rs/xmc4100/compare/v0.10.0...v0.11.0) (2024-04-16)
+
+
+### Features
+
+* updating from newer svd2rust ([#81](https://github.com/xmc-rs/xmc4100/issues/81)) ([d53668a](https://github.com/xmc-rs/xmc4100/commit/d53668a5ac651fb8a2fdf7876c2c07f65efb0554))
+
+
+### Bug Fixes
+
+* **deps:** update rust crate cortex-m-rt to 0.7.4 ([#83](https://github.com/xmc-rs/xmc4100/issues/83)) ([8b60713](https://github.com/xmc-rs/xmc4100/commit/8b60713165d0919517c30702574213bdfdca4cad))
+
 ## [0.10.0](https://github.com/xmc-rs/xmc4100/compare/v0.9.0...v0.10.0) (2024-03-01)
 
 
