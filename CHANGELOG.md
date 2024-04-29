@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.1](https://github.com/xmc-rs/xmc4100/compare/v0.11.0...v0.11.1) (2024-04-29)
+
+
+### Bug Fixes
+
+* regenerating code with original layout ([490bde2](https://github.com/xmc-rs/xmc4100/commit/490bde2d0204cca31d3c1448880cf0c72bfda3a8))
+
 ## [0.11.0](https://github.com/xmc-rs/xmc4100/compare/v0.10.0...v0.11.0) (2024-04-16)
 
 
