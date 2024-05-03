@@ -16,13 +16,9 @@ jobs:
       - uses: oleksiyrudenko/gha-git-credentials@v2.1.2
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
-      - run: |
-          rm -r src/
-          svd2rust -i XMC4100.svd --ident-formats-theme legacy
-          mkdir src
-          form -i lib.rs -o src/
-          cargo fmt
-          rm lib.rs
+      - shell: pwsh
+        run: |
+          .\svd.ps1
       - uses: tibdex/github-app-token@v2
         id: generate-token
         with:
@@ -31,7 +27,7 @@ jobs:
       - uses: peter-evans/create-pull-request@v6
         with:
           branch: svd-update
-          commit-message: "feat: updating from newer svd2rust"
+          commit-message: "feat: updating with newer svd2rust"
           title: "feat: updating from newer svd2rust"
           labels: automerge
           token: ${{ steps.generate-token.outputs.token }}
